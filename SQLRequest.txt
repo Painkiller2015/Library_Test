@@ -1,4 +1,4 @@
-SELECT DISTINCT "Имя продукта" , "Имя категории"
-FROM "Таблица продуктов" #если в разных, то left join on
-GROUP BY "Имя продукта"
-
+SELECT DISTINCT "Product_Name" , "Category_Name"
+FROM "Profuct_Table" #if not in one, then "left join on"
+GROUP BY "Product_Name"
+ORDER by "Product_Name"
